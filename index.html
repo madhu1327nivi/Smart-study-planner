@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Study Planner</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>📚 Smart Study Planner</h1>
+    
+    <div class="add-task">
+      <input type="text" id="subject" placeholder="Enter Subject">
+      <input type="text" id="topic" placeholder="Enter Topic">
+      <input type="date" id="deadline">
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <h2>Your Study Plan</h2>
+    <ul id="taskList"></ul>
+
+    <div class="progress">
+      <p>Progress: <span id="progressValue">0%</span></p>
+      <div class="progress-bar"><div id="progressFill"></div></div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
