@@ -13,3 +13,4 @@ A simple and responsive web app that helps students organize their study schedul
 - HTML5
 - CSS3
 - JavaScript (LocalStorage API)
+Screenshot_20250829_104440_Chrome.jpg
